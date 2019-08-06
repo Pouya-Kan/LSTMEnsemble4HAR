@@ -7,7 +7,7 @@ from sklearn.metrics import confusion_matrix
 import pickle
 import pandas as pd
 
-setnum = 1#1 is opp79, 2 is pamap2, 3 is skoda
+setnum = 2#1 is opp79, 2 is pamap2, 3 is skoda
 if setnum == 1:
 	train_x, valid_x, test_x, train_y, valid_y, test_y = loadingDB('../', 79)
 	n_classes = 18
